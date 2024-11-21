@@ -1,0 +1,154 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Owl Application</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_main4">MainActivity4</string>
+    <string name="title_activity_main5">MainActivity5</string>
+
+    <!--One topic-->
+    <string name="course1">Java</string>
+    <string name="topic1">The Basics of Java</string>
+    <string name="subheading1_1">What Is Java</string>
+    <string name="text1_1">Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.</string>
+
+    <string name="subheading1_2">The Basics of Java</string>
+    <string name="text1_2">"
+Before diving into coding, we will need to set up your development environment. Java development typically requires the Java Development Kit (JDK), which includes the Java compiler and other essential tools. You can download the JDK from the official Oracle website and follow the installation instructions for your operating system.
+
+Once we have the JDK installed, you can use a text editor or an Integrated Development Environment (IDE) like IntelliJ IDEA, Eclipse, or NetBeans to write and run your Java code. IDEs provide features such as code completion, debugging, and project management, making them invaluable tools for developers.
+
+Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.
+
+Java Example
+Let's have a quick look at a Java programming example.
+
+Simple.java
+
+class Simple {
+    public static void main(String[] args) {
+        System.out.println("Hello Java");
+    }
+}
+
+Types of Java Applications
+
+There are the following 4-types of applications that can be created using Java programming:
+
+1) Standalone Application
+Standalone applications are also known as desktop applications or window-based applications. These are traditional software that we need to install on every machine. Examples of standalone applications are Media player, antivirus, etc. AWT and Swing are used in Java for creating standalone applications.
+
+2) Web Application
+An application that runs on the server side and creates a dynamic page is called a web application. Currently, Servlet, JSP, Struts, Spring, Hibernate, JSF, etc. technologies are used for creating web applications in Java.
+
+3) Enterprise Application
+An application that is distributed in nature, such as banking applications, etc. is called an enterprise application. It has advantages like high-level security, load balancing, and clustering. In Java, EJB is used for creating enterprise applications.
+
+4) Mobile Application
+An application which is created for mobile devices is called a mobile application. Currently, Android and Java ME are used for creating mobile applications.
+"</string>
+
+    <!--Two topic-->
+    <string name="course2">Kotlin</string>
+    <string name="topic2">The Basics of Kotlin</string>
+    <string name="subheading2_1">What is Kotlin?</string>
+    <string name="text2_1">Kotlin is a general-purpose, statically typed, and open-source programming language. It runs on JVM and can be used anywhere Java is used today. It can be used to develop Android apps, server-side apps and much more.</string>
+
+    <string name="subheading2_2">Basics of Kotlin</string>
+    <string name="text2_2">"
+Kotlin is a modern but already mature programming language designed to make developers happier. It's concise, safe, interoperable with Java and other languages, and provides many ways to reuse code between multiple platforms for productive programming.
+
+Sample Program:
+
+fun main() {
+    println("Hello, World!")
+}
+
+Explanation of Each Part
+
+fun:
+This keyword is used to define a function in Kotlin. Every Kotlin program must have at least one function, called main, which is the entry point for the program. In Kotlin, all code starts execution from the main function.
+
+main():
+This is the name of the function. main is a special function name in Kotlin that signifies where the program will start executing. The main function does not require any parameters for a basic program, but it can accept an array of strings if needed for command-line arguments.
+
+Curly Braces { … }:
+These braces define the start and end of the function's body. All code inside the main function will be executed when the program runs.
+
+println():
+This is a built-in function in Kotlin that prints text to the console, followed by a newline character, meaning the cursor moves to the next line after printing.
+Kotlin provides this function to make printing text easy and accessible, similar to System.out.println() in Java.
+
+"Hello, World!":
+This is the text (or string) we want to display. In Kotlin, strings are enclosed in double quotation marks (").
+In this program, we are using println to display the message "Hello, World!" to the console, which is a standard way to start learning a new programming language.
+"</string>
+
+    <!--Three topic-->
+    <string name="course3">Python</string>
+    <string name="topic3">What is Python</string>
+    <string name="subheading3_1" tools:ignore="TypographyDashes">Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. Python is dynamically-typed and garbage-collected. It was created by Guido van Rossum during 1985-1990. Like Perl, Python source code is also available under the GNU General Public License (GPL).</string>
+    <string name="text3_1">Basics of Python</string>
+    <string name="text3_2">"
+There is no use of curly braces or semicolons in Python programming language. It is an English-like language. But Python uses indentation to define a block of code. Indentation is nothing but adding whitespace before the statement when it is needed.
+
+def func():
+    statement 1
+    statement 2
+    …………………
+    …………………
+    statement N
+
+In the above example, the statements that are the same level to the right belong to the function. Generally, we can use four whitespaces to define indentation.
+
+Instead of a semicolon as used in other languages, Python ends its statements with a NewLine character.
+
+Python is a case-sensitive language, which means that uppercase and lowercase letters are treated differently. For example, 'name' and 'Name' are two different variables in Python.
+
+In Python, comments can be added using the '#' symbol. Any text written after the '#' symbol is considered a comment and is ignored by the interpreter. This trick is useful for adding notes to the code or temporarily disabling a code block.
+
+'If', 'else', 'for', 'while', 'try', 'except', and 'finally' are a few reserved keywords in Python that cannot be used as variable names.
+
+History of Python:
+
+Python was created by Guido van Rossum. In the late 1980s, Guido began working on Python at the Centrum Wiskunde &amp; Informatica (CWI) in the Netherlands. In February 1991, the first public version of Python, version 0.9.0, was released, marking the birth of Python as an open-source project.
+"</string>
+
+    <!--Four topic-->
+    <string name="course4">JavaScript</string>
+    <string name="topic4">Basics of JavaScript</string>
+    <string name="subheading4_1">What Is JavaScript?</string>
+    <string name="text4_1">"JavaScript is a lightweight, interpreted programming language. It is commonly used to create dynamic and interactive elements in web applications. JavaScript is very easy to implement because it is integrated with HTML. It is open and cross platform."</string>
+    <string name="text4_2">"JavaScript Hello World Example
+
+Summary: This tutorial helps you get started with JavaScript by showing you how to embed JavaScript code into an HTML page to show the Hello World message.
+
+Creating a JavaScript Hello World project
+Step 1. Create a new project directory called helloworld to store the HTML and JavaScript files.
+
+Step 2. Open the helloworld project directory in your favorite code editor. We’ll use VS Code.
+
+Step 3. Create a new HTML file named index.html inside the helloworld project directory with the following code:
+
+<![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Hello, World!</title>
+  </head>
+  <body>
+    <script>
+      alert('Hello, World!');
+    </script>
+  </body>
+</html>
+]]>
+
+Step 4. Right-click the editor and select “Open with Live Server”. VS Code will start a web server and open the index.html in the default browser.
+
+Step 5. You’ll see an alert box that displays the Hello World message on the web page."
+</string>
+</resources>
